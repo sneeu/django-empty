@@ -1,0 +1,9 @@
+[submodule "vendor/django-typogrify"]
+	path = vendor/django-typogrify
+	url = git://github.com/clones/django-typogrify.git
+[submodule "vendor/django"]
+	path = vendor/django
+	url = git://github.com/brosner/django.git
+[submodule "vendor/django-debug-toolbar"]
+	path = vendor/django-debug-toolbar
+	url = git://github.com/robhudson/django-debug-toolbar.git

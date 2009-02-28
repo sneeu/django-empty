@@ -1,0 +1,8 @@
+#!/bin/bash
+PD=`dirname $0`
+DJANGO_DIR=./lib
+
+export PYTHONPATH=$PD:$DJANGO_DIR
+export DJANGO_SETTINGS_MODULE=settings
+
+python $DJANGO_DIR/django/bin/django-admin.py $@
