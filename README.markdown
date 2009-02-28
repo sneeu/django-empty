@@ -1,4 +1,4 @@
 django-empty
 ============
 
-An starting point for a new Django project.
+A starting point for a new Django project.
